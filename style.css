@@ -1,0 +1,70 @@
+body{
+   display: grid;
+   justify-content: center;
+}
+.container{
+    margin-top: 100px;
+    display: grid;
+    background-color: aliceblue;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    margin: auto;
+    margin-top: 50px;
+}
+.sub-container {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: auto auto; /* Two columns */
+    grid-auto-rows: auto; /* Automatically sized rows */
+    justify-content: center;
+    align-items: center;
+
+    width: 600px;
+    padding: 40px;
+   
+}
+input{
+    width: 400px;
+    padding: 10px;
+    background-color: antiquewhite;
+}
+
+button.add{
+    width: 100px;
+    /* margin-top: 5px; */
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+}
+li{
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    list-style-type: none;
+}
+button.remove {
+    margin-left: 10px;
+    margin-bottom: 15px;
+    width: 100px; 
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    border-radius: 100px;
+   
+}
+.output{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto;
+    grid-auto-rows: auto;
+    box-sizing: border-box;
+}
